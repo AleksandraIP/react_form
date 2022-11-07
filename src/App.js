@@ -1,24 +1,15 @@
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
+import Info from "./done/aboutme";
+import Towns from "./done/towns";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="App">
+        {/*<Info name="Oleksandra Popova" age="29" tel="079 111 11 11" email="aleksandraip@ukr.net" nationality="Ukrainian"></Info>*/}
+          <Towns></Towns>
+      </div>
+
   );
 }
 
